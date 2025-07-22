@@ -1,0 +1,252 @@
+.top-cart {
+  height: 400px;
+  background-image: url(image/topcart.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.heading-big {
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 70px;
+  margin-top: 127px;
+  color: #FFFFFF;
+}
+
+.cart {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 32px;
+
+  &__form {
+    background: #f7f6f6;
+    border-radius: 20px;
+    height: 556px;
+    font-size: 24px;
+    text-align: center;
+    line-height: 82px;
+    border: 1px solid rgb(202, 205, 216);
+    list-style-type: none;
+    color: black;
+    grid-column: span 4;
+    margin-top: 49px;
+    padding-left: 27px;
+    padding-right: 27px;
+  }
+
+  &__registration {
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+
+  &__registration {
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-top: 49px;
+  }
+
+  &__content {
+    grid-column: span 8;
+  }
+
+  &__name-box {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 14px;
+    margin-top: 64px;
+  }
+
+  &__number {
+    border: 1px solid white;
+    width: 66px;
+    height: 46px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 6px;
+    background: rgb(247, 246, 246);
+    font-family: inherit;
+  }
+
+  &__item {
+    border-top: 0.5px solid #CACDD8;
+    padding-top: 25px;
+    padding-bottom: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  &__info {
+    width: 276px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  &__left {
+    display: flex;
+    gap: 32px;
+  }
+
+  &__clean {
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    width: 200px;
+    height: 37px;
+    left: 25px;
+    top: 1002px;
+  }
+
+  &__continue {
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    width: 200px;
+    height: 37px;
+    left: 240px;
+    top: 1002px;
+  }
+
+  &__link-box {
+    text-decoration: underline;
+  }
+
+  &__button {
+    display: flex;
+    gap: 8px;
+  }
+
+  &__link-favorite {
+    width: 85px;
+    height: 29px;
+    left: 365px;
+    top: 689px;
+    flex-direction: row;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 210%;
+    letter-spacing: 0px;
+    text-align: center;
+    text-decoration-line: underline;
+    margin-right: 30px;
+  }
+
+  &__link-delet {
+    width: 60px;
+    height: 29px;
+    left: 482px;
+    top: 689px;
+    flex-direction: row;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 210%;
+    letter-spacing: 0px;
+    text-align: center;
+    text-decoration-line: underline;
+  }
+
+  &__link-favorites {
+    width: 85px;
+    height: 29px;
+    left: 365px;
+    top: 940px;
+    flex-direction: row;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 210%;
+    letter-spacing: 0px;
+    text-align: center;
+    text-decoration-line: underline;
+    margin-right: 30px;
+  }
+
+  &__link-delete {
+    width: 60px;
+    height: 29px;
+    left: 482px;
+    top: 940px;
+    flex-direction: row;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 210%;
+    letter-spacing: 0px;
+    text-align: center;
+    text-decoration-line: underline;
+  }
+
+  &__link {
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0px;
+    border: none;
+    border-bottom: 1px solid rgb(202, 205, 216);
+    background-color: transparent;
+    width: 100%;
+    &::placeholder {
+      color: inherit;
+    }
+  }
+
+  &__alink {
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-bottom: 16px;
+  }
+
+  &__links {
+    position: relative;
+    width: 290px;
+    height: 41px;
+    box-sizing: border-box;
+    border: 1px solid rgb(4, 4, 4);
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  &__info p:first-of-type {
+    color: rgb(136, 136, 136);
+  }
+}
+
+.form__ul {
+      & > li {
+      padding-right: 37px;
+      } 
+    }
+
